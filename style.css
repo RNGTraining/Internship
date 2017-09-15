@@ -100,3 +100,50 @@ div.showcase p {
 .btn-showcase:hover{
 	background-color: #940415;
 }
+.container{
+	width: inherit;
+	font: 15px/1.2 arial helvetica sans-serif;
+	color: black;
+	margin: 20px;
+}
+.row{
+	margin: 20px 0 0 0;
+	border-bottom: 2px solid #ccc;
+	display: inline;
+}
+.col{
+	float: left;
+	width: 32.5%;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	}
+
+.row h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-family:helvetica sans-serif;
+}
+.service-content{
+	box-shadow: 0 5px 15px rgba(94, 47, 222, .5);
+	padding: 15px;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+footer ul li{
+	list-style-type: none;
+	padding: 10px;
+	text-decoration:none;
+}
+footer ul{
+	display: flex;
+}
+footer ul li a{
+	text-decoration: none;
+}
+footer p {
+	text-align: center;
+}
