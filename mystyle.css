@@ -11,19 +11,12 @@ nav{
 	padding:0;
 	width: 100%;
 	background-color: #fff;
-	border-bottom: 2px solid #F4001E;
-	overflow: hidden;
-}
-nav img{
-	float: left;
-	display: inline-block;
 }
 
 nav ul{
 	list-style-type: none;
 	margin:0;
 	padding: 0;
-	float: right;
 }
 
 nav ul li{
