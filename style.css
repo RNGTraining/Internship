@@ -13,7 +13,7 @@ nav{
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 2px solid #F4001E;
-	overflow: hidden;
+	position: fixed;
 }
 nav img{
 	float: left;
@@ -51,14 +51,12 @@ div.container{
 
 div.showcase-container{
 	margin:0;
-	padding: 0;
-	height: 100%;
+	padding-top: 72px;
+	height: 80vh;
 	background-image: url(images/showcase_image.jpg);
 	background-size: cover;
 }
 
 div.showcase{
-	height: 100%;
-	margin-top: 10%;
 	text-align: center;
 }
