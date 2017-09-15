@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	height:100%;
 	font-family: arial , verdana ;
+	
 
 }
 
@@ -46,4 +47,23 @@ nav ul li a:hover{
 	background-color: #F4001E;
 	color:white;
 
+}
+
+div.container{
+	margin:0;
+	padding: 5px;
+}
+
+div.showcase-container{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	background-image: url(images/showcase_image.jpg);
+	background-size: cover;
+}
+
+div.showcase{
+	height: 100%;
+	margin-top: 10%;
+	text-align: center;
 }
