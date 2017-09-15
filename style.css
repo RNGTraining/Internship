@@ -13,7 +13,12 @@ nav{
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 2px solid #F4001E;
+<<<<<<< HEAD
 	position: fixed;
+=======
+	overflow: hidden;
+	height: 70px;
+>>>>>>> 69ca6b6fc148792ca6c3de784efb37e94eda671d
 }
 nav img{
 	float: left;
@@ -25,6 +30,8 @@ nav ul{
 	margin:0;
 	padding: 0;
 	float: right;
+	line-height: 70px;
+	text-align: center;
 }
 
 nav ul li{
@@ -36,6 +43,8 @@ nav ul li a{
 	text-decoration: none;
 	margin: 0;
 	color:#F4001E;
+	text-align: center;
+	line-height: 40.5px
 }
 
 nav ul li a:hover{
@@ -52,11 +61,42 @@ div.container{
 div.showcase-container{
 	margin:0;
 	padding-top: 72px;
-	height: 80vh;
+	height: 76vh;
 	background-image: url(images/showcase_image.jpg);
 	background-size: cover;
 }
 
 div.showcase{
+	margin-top: 10%;
 	text-align: center;
+	color:#fff;
+}
+div.showcase h1{
+	font-size: 48px;
+	font-weight: bolder;
+
+}
+div.showcase p {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.btn{
+	border: none;
+	padding:10px 20px;
+	border-radius: 2px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn-showcase{
+	padding:20px 60px;
+	margin-top: 15px;
+	color:#fff;
+	background-color: #F4001E;
+	font-size: 20px;
+	transition:0.2s;
+	}
+.btn-showcase:hover{
+	background-color: #940415;
 }
