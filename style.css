@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	height:100%;
 	font-family: arial , verdana ;
+	position: relative;
 	
 
 }
@@ -13,12 +14,9 @@ nav{
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 2px solid #F4001E;
-<<<<<<< HEAD
-	position: fixed;
-=======
-	overflow: hidden;
+	clear:both;
 	height: 70px;
->>>>>>> 69ca6b6fc148792ca6c3de784efb37e94eda671d
+	position: fixed;
 }
 nav img{
 	float: left;
@@ -53,21 +51,22 @@ nav ul li a:hover{
 
 }
 
-div.container{
+/*div.container{
 	margin:0;
 	padding: 5px;
 }
-
+*/
 div.showcase-container{
 	margin:0;
 	padding-top: 72px;
 	height: 76vh;
 	background-image: url(images/showcase_image.jpg);
 	background-size: cover;
+	border-bottom: 4px solid #cccccc;
 }
 
 div.showcase{
-	margin-top: 10%;
+	margin-top: 15%;
 	text-align: center;
 	color:#fff;
 }
@@ -100,50 +99,70 @@ div.showcase p {
 .btn-showcase:hover{
 	background-color: #940415;
 }
-.container{
-	width: inherit;
-	font: 15px/1.2 arial helvetica sans-serif;
-	color: black;
-	margin: 20px;
+ .container{
+	width:100%;
+	margin:0;
+	padding: 0;
+	
+	/*margin: 20px;*/
 }
 .row{
-	margin: 20px 0 0 0;
-	border-bottom: 2px solid #ccc;
-	display: inline;
+	margin: 0;
+	padding:10px;
+	padding-bottom: 25px;
 }
+
 .col{
-	float: left;
-	width: 32.5%;
-	margin: 0 auto;
-	padding: 5px;
+	display: inline-block;
+	width: 25%;
+	padding: 0;
+	margin: 0 22px;
 	text-align: center;
+	box-shadow: 0 8px 16px 0 #ccc;
+
 	}
 
 .row h2{
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.6em;
-	font-family:helvetica sans-serif;
 }
 .service-content{
-	box-shadow: 0 5px 15px rgba(94, 47, 222, .5);
 	padding: 15px;
 	line-height: 1.5em;
 	text-align: center;
 	font-size: 1.2em;
+} 
+.service-header{
+	color:#F4001E;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #F4001E;
 }
 
-footer ul li{
-	list-style-type: none;
-	padding: 10px;
-	text-decoration:none;
+footer{
+	margin: 0;
+	padding:15px;
+	text-align: center;
+	background-color: #F4001E;
 }
-footer ul{
-	display: flex;
+footer p{
+	color:#fff;
+}
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li {
+	display: inline;
+	padding: 0 20px;
 }
 footer ul li a{
 	text-decoration: none;
+	color:#fff;
 }
-footer p {
-	text-align: center;
+footer ul li a:hover{
+	transform:translateY(-1px);
+	color: #ccc;
 }
