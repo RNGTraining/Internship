@@ -30,24 +30,35 @@ nav ul{
 	float: right;
 	line-height: 70px;
 	text-align: center;
+	margin-right: 25px;
 }
 
 nav ul li{
 	display: inline-block;
+	margin-right: 20px;
 }
 nav ul li a{
+<<<<<<< HEAD
 	display: block;
 	padding: 0 30px;
+=======
+	padding: 5px 15px;
+>>>>>>> 3be29606a2c441a766287ffabbc1a86faa124645
 	text-decoration: none;
 	margin: 0;
+	
 	color:#F4001E;
 	text-align: center;
 	line-height: 40.5px
 }
 
 nav ul li a:hover{
+<<<<<<< HEAD
 	border-bottom:4px solid #F4001E;
 	color:#F4001E;
+=======
+	border-bottom: 2px solid #F4001E;
+>>>>>>> 3be29606a2c441a766287ffabbc1a86faa124645
 
 }
 
@@ -58,11 +69,10 @@ nav ul li a:hover{
 */
 div.showcase-container{
 	margin:0;
-	padding-top: 72px;
+	padding: 80px 0;
 	height: 76vh;
 	background-image: url(images/showcase_image.jpg);
 	background-size: cover;
-	border-bottom: 4px solid #cccccc;
 }
 
 div.showcase{
@@ -104,7 +114,6 @@ div.showcase p {
 	margin:0;
 	padding: 0;
 	
-	/*margin: 20px;*/
 }
 .row{
 	margin: 0;
@@ -112,6 +121,10 @@ div.showcase p {
 	padding-bottom: 25px;
 }
 
+.row-h2{
+	color:#F4001E;
+
+}
 .col{
 	display: inline-block;
 	width: 25%;
