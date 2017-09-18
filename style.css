@@ -37,7 +37,7 @@ nav ul li{
 }
 nav ul li a{
 	display: block;
-	padding: 15px 30px;
+	padding: 0 30px;
 	text-decoration: none;
 	margin: 0;
 	color:#F4001E;
@@ -46,8 +46,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	background-color: #F4001E;
-	color:white;
+	border-bottom:4px solid #F4001E;
+	color:#F4001E;
 
 }
 
@@ -126,6 +126,7 @@ div.showcase p {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.6em;
+	color: 
 }
 .service-content{
 	padding: 15px;
