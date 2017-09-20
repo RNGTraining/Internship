@@ -63,6 +63,8 @@ nav ul li.sm:hover{
 
 
 nav ul li a{
+
+	display: block;
 	padding: 5px 15px;
 	text-decoration: none;
 	margin: 0;
@@ -80,6 +82,7 @@ nav ul li a{
 }
 */
 nav ul li a:hover{
+	color:#F4001E;
 	border-bottom: 2px solid #F4001E;
 
 }
@@ -155,6 +158,7 @@ div.showcase p {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.6em;
+	color: 
 }
 .service-content{
 	padding: 15px;
