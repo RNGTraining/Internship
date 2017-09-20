@@ -16,7 +16,7 @@ nav{
 	border-bottom: 2px solid #F4001E;
 	clear:both;
 	height: 70px;
-	position: fixed;
+	
 }
 nav img{
 	float: left;
@@ -37,29 +37,57 @@ nav ul li{
 	display: inline-block;
 	margin-right: 20px;
 }
+nav ul li.sm {
+	display:none;
+	color: #F4001E;
+}
+
+nav ul li.sm:hover{
+	color:#000;
+}
+
+@media screen and (max-width: 640px){
+	nav ul{
+		margin-right: 5px;
+		line-height: 85px;
+	}
+	nav ul li.xl{
+		display: none;
+	}
+
+	nav ul li.sm{
+		display: block;
+	}
+}
+
+
+
 nav ul li a{
 	padding: 5px 15px;
 	text-decoration: none;
 	margin: 0;
-	
 	color:#F4001E;
 	text-align: center;
 	line-height: 40.5px
 }
 
+/*.nav-icons{
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	background-color: #F4001E;
+}
+*/
 nav ul li a:hover{
 	border-bottom: 2px solid #F4001E;
 
 }
 
-/*div.container{
-	margin:0;
-	padding: 5px;
-}
-*/
+
 div.showcase-container{
 	margin:0;
-	padding: 80px 0;
+	padding: 40px 0;
 	height: 76vh;
 	background-image: url(images/showcase_image.jpg);
 	background-size: cover;
@@ -92,19 +120,17 @@ div.showcase p {
 	padding:20px 60px;
 	margin-top: 15px;
 	color:#fff;
-	background-color: #F4001E;
+	background-color: rgba(244 ,0,30,0.5);
 	font-size: 20px;
 	transition:0.2s;
 	}
 .btn-showcase:hover{
-	background-color: #940415;
+	background-color: rgb(244 ,0,30);
 }
  .container{
-	width:100%;
 	margin:0;
-	padding: 0;
-	
 }
+
 .row{
 	margin: 0;
 	padding:10px;
@@ -141,6 +167,50 @@ div.showcase p {
 	padding-bottom: 10px;
 	border-bottom: 4px solid #F4001E;
 }
+
+
+.panel{
+	margin:0 auto;
+	width:80%;
+	padding: 20px auto;
+	
+}
+
+.panel .heading{
+	color:#fff;
+	background-color: #F4001E;
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 5px;
+
+
+}
+
+.panel-body{
+	display:block;
+	background-color: transparent;
+	margin:auto;
+	border-radius: 5px;
+	
+}
+
+.interns-content{
+	display: inline-block;
+	padding: 15px 30px;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0 4px 16px 0 #ccc;
+}
+
+#profile-img{
+	max-width: 80px;
+    margin: 0 auto;
+
+}
+#profile-img img{
+	border-radius: 50%;
+}
+
 
 footer{
 	margin: 0;
